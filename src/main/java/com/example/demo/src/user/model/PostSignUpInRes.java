@@ -1,4 +1,4 @@
-package com.example.demo.src.post.model;
+package com.example.demo.src.user.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -7,6 +7,6 @@ import lombok.Setter;
 @Getter
 @Setter
 @AllArgsConstructor
-public class PostPostRes {
-    private int addedPost;
+public class PostSignUpInRes {
+    private int userId;
 }

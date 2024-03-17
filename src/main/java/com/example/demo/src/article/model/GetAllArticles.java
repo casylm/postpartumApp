@@ -1,4 +1,4 @@
-package com.example.demo.src.post.model;
+package com.example.demo.src.article.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,8 +9,8 @@ import java.util.List;
 @Getter
 @Setter
 @AllArgsConstructor
-public class PostPostReq {
+public class GetAllArticles {
 
-    private String content;
-    private List<PostImgsUrlReq> postImgsUrl;
+    private int id;
+    private String URL;
 }
